@@ -3,6 +3,8 @@
 이전 Coupon 프로젝트에서 진행했던 쿠폰 발급 과정을 고도화, 새로운 기능을 추가해 간단한 이커머스 기능 구현
 
 - Github Actions을 이용한 테스트 자동화
+- Redisson을 이용한 분산 락 → Lua 스크립트를 통한 원자성 처리로 동시성 성능 개선 (RPS 10배 개선)
+- JMeter 성능 테스트를 통한 Kafka 사용 전후 비교 (TPS 236% 개선,  Latency 7sec → 13ms) 
 
 <br>
 
